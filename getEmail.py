@@ -2,8 +2,8 @@ import email
 import imaplib
 import base64
 from bs4 import BeautifulSoup
-from passwordKeeper import outlookUN
-from passwordKeeper import outlookPW
+from pwk import outlookUN
+from pwk import outlookPW
 
 username = outlookUN
 password = outlookPW
